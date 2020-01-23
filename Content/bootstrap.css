@@ -117,8 +117,8 @@ input,
 optgroup,
 select,
 textarea {
-  color: inherit;
-  font: inherit;
+  color: #a94442;
+  font: caption;
   margin: 0;
 }
 button {
@@ -246,7 +246,7 @@ th {
   }
   .btn > .caret,
   .dropup > .btn > .caret {
-    border-top-color: #000 !important;
+    border-top-color: #a94442 !important;
   }
   .label {
     border: 1px solid #000;
@@ -256,7 +256,7 @@ th {
   }
   .table td,
   .table th {
-    background-color: #fff !important;
+    background-color: #a94442 !important;
   }
   .table-bordered th,
   .table-bordered td {
@@ -1082,11 +1082,11 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333333;
-  background-color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #a94442;
+    background-color: #fff;
 }
 input,
 button,
@@ -1097,14 +1097,14 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
-  text-decoration: none;
+    color: #a94442;
+    text-decoration: none;
 }
-a:hover,
-a:focus {
-  color: #23527c;
-  text-decoration: underline;
-}
+    a:hover,
+    a:focus {
+        color: #a94442;
+        text-decoration: underline;
+    }
 a:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
@@ -1183,39 +1183,39 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 1.1;
-  color: inherit;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #a94442;
 }
-h1 small,
-h2 small,
-h3 small,
-h4 small,
-h5 small,
-h6 small,
-.h1 small,
-.h2 small,
-.h3 small,
-.h4 small,
-.h5 small,
-.h6 small,
-h1 .small,
-h2 .small,
-h3 .small,
-h4 .small,
-h5 .small,
-h6 .small,
-.h1 .small,
-.h2 .small,
-.h3 .small,
-.h4 .small,
-.h5 .small,
-.h6 .small {
-  font-weight: 400;
-  line-height: 1;
-  color: #777777;
-}
+    h1 small,
+    h2 small,
+    h3 small,
+    h4 small,
+    h5 small,
+    h6 small,
+    .h1 small,
+    .h2 small,
+    .h3 small,
+    .h4 small,
+    .h5 small,
+    .h6 small,
+    h1 .small,
+    h2 .small,
+    h3 .small,
+    h4 .small,
+    h5 .small,
+    h6 .small,
+    .h1 .small,
+    .h2 .small,
+    .h3 .small,
+    .h4 .small,
+    .h5 .small,
+    .h6 .small {
+        font-weight: 400;
+        line-height: 1;
+        color: #a94442;
+    }
 h1,
 .h1,
 h2,
@@ -1307,7 +1307,7 @@ small,
 mark,
 .mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
+  background-color: #3c763d;
 }
 .text-left {
   text-align: left;
@@ -1372,8 +1372,8 @@ a.text-danger:focus {
   color: #843534;
 }
 .bg-primary {
-  color: #fff;
-  background-color: #337ab7;
+    color: #fff;
+    background-color: #3c763d;
 }
 a.bg-primary:hover,
 a.bg-primary:focus {
